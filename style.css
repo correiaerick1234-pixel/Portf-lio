@@ -63,6 +63,11 @@ header a {
     background-color: #0CCE6B; /*Mudar cor de fundo*/
 }
 
+header a:hover{
+    background-color: #363537;
+    color: #0CCE6B;
+}
+
 /*Imagem do inicio*/
 #inicio {
     background-image: url(./Imagens/background.webp);
@@ -204,17 +209,4 @@ div {
     object-fit: cover;/*Ajustar a imagem */
     text-align: center; /*Centralizar o texto*/
     background-color: #00ff62; /*Mudar cor de fundo*/
-}
-
-
-
-
-
-
-
-
-
-
-header a :hover{
-    background-color: aqua;
 }
