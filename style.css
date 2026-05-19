@@ -1,0 +1,207 @@
+ /*Para não colocar espaço nos lados*/
+* {
+    box-sizing: border-box;
+    margin: 0%; /*MUdar o tamanho da caixa*/
+    padding: 0%; /*MUdar o tamanho da caixa do margin*/
+    background-color: black; /*Mudar cor de fundo*/
+}
+/*Corpo da pag*/
+body {
+    text-align: center; /*Centralizar o texto*/
+    color: rgb(0, 0, 0); /*Mudar cor do texto*/
+}
+
+/*Titulo*/
+#ttt {
+    color: #0CCE6B; /*Mudar cor de texto*/
+    font-size: 50px; /*Tamanho da fonte*/
+}
+
+#linha{
+    display: inline;
+    background-color: #0CCE6B;
+    clear: both;
+}
+
+.pag{
+    background-color: #0CCE6B;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 50px;
+    display: inline-block;
+}
+
+/*Sub-titulo*/
+.pag_2 { 
+
+    background-color: #0CCE6B; /*Mudar cor de fundo*/
+    border-radius: 5px; /*Arredondar as caixas*/
+    padding: 10px; /*MUdar o tamanho da caixa do margin*/
+    color: black; /*Mudar cor de texto*/
+    align-items: center; /*Centralizar o sub-titulo*/
+    display: inline-block;
+    width: 50uv;
+    height: 50uv;
+    font-size: 50px;
+}
+/*Alterna o cabeçalho*/
+header {
+    text-align: center; /*Centralizar o texto*/
+    display: inline block; /*centralizar o conteúdo*/
+    margin: 20px; /*MUdar o tamanho da caixa*/
+}
+/*Alterna os linkes do cabeçalho*/
+header a {
+    text-decoration: none; /*Tirar a linha do link*/
+    color: black; /*Mudar cor de texto*/
+    display: inline block; /*centralizar o conteúdo*/
+    margin-left: 80px; /*MUdar o tamanho da caixa para a esqueda*/
+    margin: 20px 10px; /*MUdar o tamanho da caixa*/
+    padding: 10px 30px; /*MUdar o tamanho da caixa dentro do margin*/
+    border-radius: 10px; /*Arredondar as caixas*/
+    background-color: #0CCE6B; /*Mudar cor de fundo*/
+}
+
+/*Imagem do inicio*/
+#inicio {
+    background-image: url(./Imagens/background.webp);
+}
+/*sobre*/
+article h2 {
+    display: flex; /*centralizar o conteúdo*/
+    justify-content: left; /*centralizar o conteúdo*/
+}
+
+/*linkes*/
+.Con a {
+    text-decoration: none; /*Tirar a linha do link*/
+    color: white; /*Mudar cor de texto*/
+    display: inline-block; /*centralizar o conteúdo*/
+}
+/*o sobre*/
+div {
+    display: inline-block; /*centralizar o conteúdo*/
+    color: #363537; /*Mudar cor de texto*/
+    justify-content: center; /*centralizar o conteúdo*/
+    flex-direction: row; /*centralizar o conteúdo*/
+    margin: 10px 70vh; /*MUdar o tamanho da caixa para os lados*/ 
+    font-size: 20px; /*Tamanho da fonte*/
+}
+/*texto do inicio*/
+#txt * {
+    display: inline; /*centralizar o conteúdo*/
+    flex-direction: column; /*centralizar o conteúdo*/
+    justify-content: left; /*centralizar o conteúdo*/
+
+}
+/*texto do inicio*/
+#nome {
+    color: #0CCE6B; /*Mudar cor de texto*/
+    display: flex; /*centralizar o conteúdo*/
+    justify-content: flex-end; /*centralizar o conteúdo*/
+    flex-direction: column-reverse; /*centralizar o conteúdo*/
+}
+/*texto do inicio*/
+#ola {
+    color: white; /*Mudar cor de texto*/
+}
+/*texto do inicio*/
+#apresentacao strong {
+    color: white; /*Mudar cor de texto*/
+}
+/*caixas dos contatos*/
+.Con {
+    /*article dos card de personagens*/
+    width: 100uv; /*Mudar a largura*/
+    height: 100uv;
+    display: flexbox;/*centralizar o conteúdo*/
+    flex-direction: row; /*centralizar o conteúdo*/
+    margin: 15px; /*MUdar o tamanho da caixa*/
+    padding: 15px; /*MUdar o tamanho da caixa dentro da margin*/
+    border-radius: 10px; /*Arredondar as caixas*/
+    background-color: #000000; /*Mudar cor de fundo*/
+    align-items: self-start;
+}
+/*imagens dos contatos*/
+.Con img {
+    width: 90%; /*Mudar a largura*/
+    height: 200px; /*Mudar a altura*/
+    border-radius: 20px; /*Arredondar as caixas*/
+    object-fit: cover;/*Ajustar a imagem */
+    text-align: center; /*Centralizar o texto*/
+    background-color: #0CCE6B; /*Mudar cor de fundo*/
+}
+/*linkes dos contatos cor de fundo*/
+.link strong{
+    background-color: #0CCE6B; /*Mudar cor de fundo*/
+    font-size: 20px /*Tamanho da fonte*/
+}
+/*linkes dos contatos cor de fundo*/
+.link{
+    background-color: #0CCE6B; /*Mudar cor de fundo*/
+}
+/*linkes dos contatos*/
+.linkes strong{
+
+    background-color: #000000; /*Mudar cor de fundo*/
+    font-size: 20px; /*Tamanho da fonte*/
+    color: white; /*Mudar cor de texto*/
+    text-decoration: none; /*Tira a linha do link*/
+}
+/*caixas dos trabalhos*/
+.trabalhos{
+    width: 30uv; /*Mudar a largura*/
+    margin-right: 20uv; /*MUdar o tamanho da caixa para direta*/
+    object-fit: cover;/*Ajustar a imagem */
+    text-align: center; /*Centralizar o texto*/
+    background-color: #0CCE6B; /*Mudar cor de fundo*/
+    display: inline-flex; /*centralizar o conteúdo*/
+    margin-bottom: 40px; /*MUdar o tamanho da caixa para baixo*/
+}
+/*imagens dos trabalhos*/
+.trabalhos img{
+    width: 70uv; /*Mudar a largura*/
+    height: 140px; /*Mudar a altura*/
+    margin: 10px; /*MUdar o tamanho da caixa*/
+    margin-right: 50uv;/*MUdar o tamanho da caixa para direta*/
+    margin-left: 30%; /*MUdar o tamanho da caixa para esqueda*/
+    
+    object-fit: cover; /*Ajustar a imagem*/
+    text-align: center; /*Centralizar o texto*/
+}
+/*textos das habilidades*/
+.Hab_txt{
+    color: #0CCE6B;
+    text-align: center; /*Centralizar o texto*/
+    display: inline; /*centralizar o conteúdo*/
+    display: flexbox;
+    background-color: black;
+}
+.cor{
+    display: flexbox;
+    background-color: #363537;
+    margin: 40uv; /*MUdar o tamanho da caixa para a esqueda*/
+}
+/*caixas das habilidades*/
+.hab{
+        /*article dos card de personagens*/
+        width: 250px; /*Mudar a largura*/
+        display: flexbox; /*centralizar o conteúdo*/
+        flex-direction: row; /*centralizar o conteúdo*/
+        margin: 15px; /*MUdar o tamanho da caixa*/
+        padding: 15px; /*MUdar o tamanho da caixa dentro do margin*/
+        border-radius: 10px; /*Arredondar as caixas*/
+        text-align: center; /*Centralizar o texto*/
+        background-color: #000000; /*Mudar cor de fundo*/
+        margin-left: 80px; /*MUdar o tamanho da caixa para a esqueda*/
+}
+/*imagens das habilidades*/
+.hab img{
+    width: 100%;  /*Mudar a largura*/
+    height: 90uv; /*Mudar a altura*/
+    border-radius: 8px; /*Arredondar as caixas*/
+    object-fit: cover;/*Ajustar a imagem */
+    text-align: center; /*Centralizar o texto*/
+    background-color: #00ff62; /*Mudar cor de fundo*/
+}
